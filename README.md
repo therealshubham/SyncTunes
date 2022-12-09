@@ -1,6 +1,4 @@
-# fa22-cs411-A-team051-CESesh
-
-Welcome to SyncTunes!
+# Welcome to SyncTunes!
 
 ## Video link
 https://youtu.be/1y1zMOSxSH4
