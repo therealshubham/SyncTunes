@@ -41,7 +41,7 @@ passport.use(
         {
             clientID: process.env.CLIENT_ID,
             clientSecret: process.env.CLIENT_SECRET,
-            callbackURL: 'http://localhost:' + `${process.env.PORT}` + authCallbackPath,
+            callbackURL: 'http://156.67.210.61:' + `${process.env.PORT}` + authCallbackPath,
         },
         async function (accessToken, refreshToken, expires_in, profile, done) {
             await db.setUserAuthToken(profile.id, accessToken, "USER_CODE", refreshToken);
